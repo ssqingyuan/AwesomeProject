@@ -20,8 +20,10 @@ function HomeScreen({ navigation }) {
 
       <Button
         title="其他问题"
-          //  onPress = {() =>{alert("fshjdkhfjk")}}
-        onPress={() => navigation.navigate('details')}
+            onPress = {() =>{NativeModules
+                     .IntentMoudle
+                   .startActivityFromJS("com.awesomeproject.SqyRnActivity", null);}}
+        //onPress={() => navigation.navigate('details')}
       />
     </View>
   );
