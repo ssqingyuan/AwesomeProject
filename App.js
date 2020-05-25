@@ -15,51 +15,46 @@ function HomeScreen({ navigation }) {
         <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}>  &emsp;问题1</Text>
         <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}>  &emsp;问题1</Text>
         <Text style = {styles.fontClass}>VIP问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;怎么取消自动续费</Text>
         <Text style = {styles.fontClass}>账户问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;问题1</Text>
         <Text style = {styles.fontClass}>VIP问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;怎么取消自动续费</Text>
         <Text style = {styles.fontClass}>账户问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;问题1</Text>
         <Text style = {styles.fontClass}>VIP问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;怎么取消自动续费</Text>
+        <Text style = {styles.fontClass}>VIP问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;怎么取消自动续费</Text>
         <Text style = {styles.fontClass}>账户问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;问题1</Text>
         <Text style = {styles.fontClass}>VIP问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;怎么取消自动续费</Text>
         <Text style = {styles.fontClass}>账户问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;问题1</Text>
         <Text style = {styles.fontClass}>VIP问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;怎么取消自动续费</Text>
+        <Text style = {styles.fontClass}>VIP问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;怎么取消自动续费</Text>
         <Text style = {styles.fontClass}>账户问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;问题1</Text>
         <Text style = {styles.fontClass}>VIP问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;怎么取消自动续费</Text>
         <Text style = {styles.fontClass}>账户问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;问题1</Text>
         <Text style = {styles.fontClass}>VIP问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;怎么取消自动续费</Text>
+        <Text style = {styles.fontClass}>VIP问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;怎么取消自动续费</Text>
         <Text style = {styles.fontClass}>账户问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;问题1</Text>
         <Text style = {styles.fontClass}>VIP问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;怎么取消自动续费</Text>
         <Text style = {styles.fontClass}>账户问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;问题1</Text>
         <Text style = {styles.fontClass}>VIP问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
-        <Text style = {styles.fontClass}>账户问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
-        <Text style = {styles.fontClass}>VIP问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
-        <Text style = {styles.fontClass}>账户问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
-        <Text style = {styles.fontClass}>VIP问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
-        <Text style = {styles.fontClass}>账户问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
-        <Text style = {styles.fontClass}>VIP问题</Text>
-        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;怎么取消自动续费</Text>
+       
 
         <Button
           title="其他问题反馈"
