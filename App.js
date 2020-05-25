@@ -1,30 +1,74 @@
 import * as React from 'react';
-import { Button, View, Text,StyleSheet ,TextInput, NativeModules} from 'react-native';
+import { Button, View, Text,StyleSheet ,TextInput, NativeModules, ScrollView} from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
 
 function HomeScreen({ navigation }) {
-      // function   onPressButton(){
-      //      alert("开始跳转了");
-      //       NativeModules
-      //   .IntentMoudle
-      //   .startActivityFromJS("com.awesomeproject.SqyRnActivity", null);
-      //   }
-//NativeModules.IntentMoudle.startActivityFromJS("SqyRnActivity", null)
-  return (
-    <View style={{ flex: 1, alignItems: 'flex-start', justifyContent: 'flex-start' }}>
-      <Text>Home Screen</Text>
-      <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}>问题1</Text>
-      <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}>问题2</Text>
 
-      <Button
-        title="其他问题"
-            onPress = {() =>{NativeModules
+  return (
+    <View style={styles.pageViewStyle}>
+      <ScrollView>
+        <Text style = {styles.fontClass}>账户问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}>  &emsp;问题1</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}>  &emsp;问题1</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}>  &emsp;问题1</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}>  &emsp;问题1</Text>
+        <Text style = {styles.fontClass}>VIP问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+        <Text style = {styles.fontClass}>账户问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
+        <Text style = {styles.fontClass}>VIP问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+        <Text style = {styles.fontClass}>账户问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
+        <Text style = {styles.fontClass}>VIP问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+        <Text style = {styles.fontClass}>账户问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
+        <Text style = {styles.fontClass}>VIP问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+        <Text style = {styles.fontClass}>账户问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
+        <Text style = {styles.fontClass}>VIP问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+        <Text style = {styles.fontClass}>账户问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
+        <Text style = {styles.fontClass}>VIP问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+        <Text style = {styles.fontClass}>账户问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
+        <Text style = {styles.fontClass}>VIP问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+        <Text style = {styles.fontClass}>账户问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
+        <Text style = {styles.fontClass}>VIP问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+        <Text style = {styles.fontClass}>账户问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
+        <Text style = {styles.fontClass}>VIP问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+        <Text style = {styles.fontClass}>账户问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
+        <Text style = {styles.fontClass}>VIP问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+        <Text style = {styles.fontClass}>账户问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
+        <Text style = {styles.fontClass}>VIP问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+        <Text style = {styles.fontClass}>账户问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem1')}> &emsp;&emsp;问题1</Text>
+        <Text style = {styles.fontClass}>VIP问题</Text>
+        <Text style = {styles.bigBlue}  onPress={() => navigation.navigate('problem2')}> &emsp;&emsp;怎么取消自动续费</Text>
+
+        <Button
+          title="其他问题反馈"
+          onPress = {() =>{NativeModules
                      .IntentMoudle
                    .startActivityFromJS("com.awesomeproject.SqyRnActivity", null);}}
         //onPress={() => navigation.navigate('details')}
-      />
+        />
+      </ScrollView>
     </View>
   );
 }
@@ -91,10 +135,30 @@ const styles = StyleSheet.create({
   container: {
     marginTop: 50,
   },
+    pageViewStyle:{
+    //  position: 'absolute',
+    //   right:160,
+    //     weight:300,
+    // //height:300,
+        flex:1,
+    backgroundColor:'#C6E2FF',
+    //position:'absolute',
+    bottom:0,
+    flexDirection:'row',
+    justifyContent:'center',
+    alignItems:'center',
+  },
+    fontClass:{
+      color :'#080808',
+        fontWeight :'bold',
+        fontSize:20
+    },
+
   bigBlue: {
-    color: 'blue',
+      flex:1,
+    color: '#00FFFF',
     fontWeight: 'bold',
-    fontSize: 30,
+    fontSize: 15,
   },
   red: {
     color: 'red',
