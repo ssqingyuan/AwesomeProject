@@ -1,0 +1,34 @@
+{
+    "data":[
+        {
+            "key":1,
+            "value":"随时取消",
+            "imgUrl":"1"
+        },
+        {
+            "key":5,
+            "value":"最多三台同时登陆",
+            "imgUrl":"1"
+        },
+        {
+            "key":6,
+            "value":"自己弄去吧！！",
+            "imgUrl":"1"
+        },
+        {
+            "key":2,
+            "value":"申请更改",
+            "imgUrl":"1"
+        },
+        {
+            "key":3,
+            "value":"重启APP",
+            "imgUrl":"2"
+        },
+        {
+            "key":4,
+            "value":"申请退款",
+            "imgUrl":""
+        }
+    ]
+}
