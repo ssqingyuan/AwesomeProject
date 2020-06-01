@@ -4,6 +4,7 @@ import {
     Text,
     View,
     Image,
+    Dimensions,
     SafeAreaView,
     ScrollView,
     NativeModules,
@@ -36,53 +37,52 @@ export default function Jump({ route, navigation }) {
         }
 
     }
-    
+
     return (
-       
+
         <View style={styles.pageViewStyle}>
-            <Text style={styles.fontClass}>{value}</Text>
-            <Image style = {styles.imgStyle} source={imgarray ['png'+imgUrl]} style={{ }} />
+            <View style={styles.container}>
+                <ScrollView>
+                    <Text style={styles.fontClass}>{value}</Text>
+                </ScrollView>
+                <Image style={styles.imgStyle} source={imgarray['png' + imgUrl]} />
+            </View>
         </View>
 
 
     );
 
 }
+//<Text style={styles.fontClass}>{value}</Text>
 
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        marginTop: 50,
-        marginLeft:50,
-        marginHorizontal: 16
+        marginTop: 0,
+        marginLeft: 0,
+        marginBottom:100,
+        //marginHorizontal: 16
     },
     imgStyle: {
-        //flex:1,
-         width: 100, 
-         height: 200,
-         position:{
-             top:50
-         }
-         //justifyContent: 'center',
-        // alignItems: 'center',
-       // marginBottom:50,
-        //marginTop:50,
-        //marginRight:100
+        //flex: 1,
+        height:300,
+        width:420
+
     },
     pageViewStyle: {
         flex: 1,
         backgroundColor: '#C6E2FF',
         bottom: 0,
-        //flexDirection: 'row',
+        flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
     },
     fontClass: {
-        //flex:1,
-        //marginTop:100,
-        color: '#080808',
-        fontWeight: 'bold',
-        fontSize: 20
+        flex: 1,
+        fontFamily: 'lucida grande',
+        //tahoma, verdana, arial, sans-serif,
+        fontSize: 20,
+        color: '#141823'
     },
 });
 

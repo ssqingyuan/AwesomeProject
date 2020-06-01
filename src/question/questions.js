@@ -89,7 +89,7 @@ function App() {
                     component={HomeScreen}
                     options={{ title: '常见问题' }}
                 />
-                <Stack.Screen name="Jump" component={Jump} />
+                <Stack.Screen name="Jump" component={Jump} options={{title:'答案详情'}}/>
 
             </Stack.Navigator>
         </NavigationContainer>
@@ -99,9 +99,9 @@ function App() {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        marginTop: 50,
-        marginLeft:50,
-        marginHorizontal: 16
+        marginTop: 10,
+       // marginLeft:20,
+       marginHorizontal: 16
     },
     item: {
         //backgroundColor: "#f9c2ff",
@@ -117,7 +117,7 @@ const styles = StyleSheet.create({
     },
     pageViewStyle: {
         flex: 1,
-        backgroundColor: '#C6E2FF',
+        backgroundColor: '#EBEBEB',
         bottom: 0,
         flexDirection: 'row',
         justifyContent: 'center',
